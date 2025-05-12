@@ -7,7 +7,6 @@ int main(){
     if (fp == NULL) {
         return 1;
     }
-    //putc('H', fp);
     fprintf(fp, "Hello, World!\n");
     fclose(fp);
     return 0;
